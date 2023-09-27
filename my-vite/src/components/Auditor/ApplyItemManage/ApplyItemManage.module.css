@@ -1,0 +1,76 @@
+.ApplyItemManage {
+  margin: 20px;
+  display: flex;
+}
+
+.ApplyItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  min-width: 300px;
+  min-height: 130px;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+.ItemId{
+  cursor: pointer;
+}
+
+.ApplyItem p {
+  margin: 5px 0;
+}
+
+.Title{
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.ApplyItem ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ApplyItem li {
+  margin: 2px 0;
+}
+.ImageContainer{
+  width: 200px;
+  height: auto;
+  background-color: purple;
+}
+.Img{
+  width: 100%;
+}
+.ScoreContainer{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(144, 144, 144);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.ScoreContainer input{
+  outline: none;
+  font-size: 20px;
+  width: 220px;
+  border-radius: 5px;
+}
+.ButtonContainer button{
+  font-size: 14px;
+  background-color: rgb(173, 173, 245);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+}
+.ButtonContainer button:hover{
+  background-color: rgb(134, 134, 191);;
+}
